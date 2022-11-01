@@ -14,8 +14,8 @@ public class HelloController {
 	public String printWelcome(ModelMap model) {
 		List<String> messages = new ArrayList<>();
 		messages.add("Hello!");
-		messages.add("It's start page for PP task #2.3.1");
-		messages.add("1.00 version by october'28 ");
+		messages.add("It's start page for PP task #3.1.2");
+		messages.add("1.00 version by november'01 ");
 		model.addAttribute("messages", messages);
 		return "index";
 	}
